@@ -2,9 +2,9 @@ class Solution {
 public:
     vector<int> plusOne(vector<int>& dig) {
         
-      int n=dig.size(),car=1;
+      int m=dig.size(),car=1;
         
-        for(int i=n-1;i>=0;--i){
+        for(int i=m-1;i>=0;--i){
             
             int x = dig[i]+car;
             dig[i]=x%10;
