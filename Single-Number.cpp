@@ -12,7 +12,7 @@ public:
         for(auto i: mp)
         {
             if(i.second == 1)
-                return i.first;
+               x return i.first;
         }
         
         return 0;
