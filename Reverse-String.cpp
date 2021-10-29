@@ -1,8 +1,8 @@
 class Solution {
 public:
-    void reverseString(vector<char>& s) {
+    void reverseString(vector<char>& p) {
         
-        int j = s.size() - 1;
+        int j = p.size() - 1;
         int i =0;
         while(i<j)
         {
