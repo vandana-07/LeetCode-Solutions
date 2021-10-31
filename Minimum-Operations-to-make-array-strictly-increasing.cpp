@@ -7,9 +7,9 @@ public:
         {
             if(v[i]<=v[i-1])
             {
-                int cg = v[i-1] - v[i] + 1;
-                cnt += cg;
-                v[i] += cg;
+                int chg = v[i-1] - v[i] + 1;
+                cnt += chg;
+                v[i] += chg;
             }
         }
         
