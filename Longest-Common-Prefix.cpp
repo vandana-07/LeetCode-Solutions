@@ -5,21 +5,21 @@ public:
         int n = str.size();
         if(n==0) return "";
         
-        string res  = "";
+        string ans  = "";
         sort(begin(str), end(str));
         string a = str[0];
         string b = str[n-1];
         
         for(int i=0; i<a.size(); i++){
             if(a[i]==b[i]){
-                res = res + a[i];
+                ans = ans + a[i];
             }
             else{
                 break;
             }
         }
         
-        return res;
+        return ans;
         
     }
 };
