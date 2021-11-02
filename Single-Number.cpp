@@ -1,10 +1,10 @@
 class Solution {
 public:
-    int singleNumber(vector<int>& nums) {
+    int singleNumber(vector<int>& v) {
     
         map<int,int> mp;
         
-        for(int i: nums)
+        for(int i: v)
         {
             mp[i]++;
         }
